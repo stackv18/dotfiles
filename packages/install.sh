@@ -27,7 +27,7 @@ sudo pacman -S sway swaybg swaylock swayidle --needed
 sudo pacman -S i3-wm i3status i3lock dmenu xorg-server xorg-xinit xorg-xrandr xorg-xsetroot --needed
 
 # Install waybar, wofi, kitty, and dolphin
-sudo pacman -S waybar wofi kitty dolphin wallbash--needed
+sudo pacman -S waybar wofi kitty dolphin --needed
 
 # Install fonts
 sudo pacman -S ttf-jetbrains-mono-nerd noto-fonts noto-fonts-emoji noto-fonts-cjk --needed
