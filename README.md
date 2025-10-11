@@ -43,8 +43,10 @@ First install the required packages from dotfiles/tpackages/install.sh
    ```
 
 The script will update your system, install necessary packages, enable required services, and finally reboot your system.
+
 For dark mode
-for libadwaita gtk4 apps you can use this command:
+
+#for libadwaita gtk4 apps you can use this command:
 exec = gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"   # for GTK4 apps
 
 #for gtk3 apps you need to install adw-gtk3 theme (in arch linux sudo pacman -S adw-gtk-theme)
