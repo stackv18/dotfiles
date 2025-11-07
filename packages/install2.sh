@@ -19,6 +19,12 @@ sudo systemctl enable --now seatd
 sudo pacman -S ly --needed
 sudo systemctl enable ly.service
 
+# Install KDE Plasma
+sudo pacman -Syu
+sudo pacman -S plasma-meta kde-applications sddm
+sudo systemctl enable sddm.service --now
+
+
 #extras
 sudo pacman -S firefox fastfetch
 
