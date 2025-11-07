@@ -21,8 +21,7 @@ sudo systemctl enable ly.service
 
 # Install KDE Plasma
 sudo pacman -Syu
-sudo pacman -S plasma-meta kde-applications sddm
-sudo systemctl enable sddm.service --now
+sudo pacman -S plasma-meta kde-applications
 
 
 #extras
